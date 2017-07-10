@@ -31,6 +31,10 @@ public class FizzBuzz {
         return solution;
     }
 
+    public int getNumber() {
+        return number;
+    }
+
     @Override
     public String toString() {
         final StringBuffer sb = new StringBuffer("FizzBuzz{");
